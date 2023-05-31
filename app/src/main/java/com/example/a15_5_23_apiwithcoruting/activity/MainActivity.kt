@@ -18,13 +18,6 @@ class MainActivity : BaseActivity() {
 
     fun vatsalLalit() {
         val nm =""
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
     }
 
 }
