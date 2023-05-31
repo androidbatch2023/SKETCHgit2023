@@ -20,5 +20,4 @@ class MainActivity : BaseActivity() {
         return  "Vatsal Bhavsar"
     }
 
-
 }
