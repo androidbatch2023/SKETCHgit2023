@@ -11,6 +11,7 @@ import com.example.a15_5_23_apiwithcoruting.ApiInterface
 import com.example.a15_5_23_apiwithcoruting.RetrofitProvider
 import com.example.a15_5_23_apiwithcoruting.adapter.PutDataShowAdapter
 import com.example.a15_5_23_apiwithcoruting.databinding.FragmentThreeBinding
+import com.example.a15_5_23_apiwithcoruting.modelRequest.Data
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
