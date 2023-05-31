@@ -15,16 +15,8 @@ class MainActivity : BaseActivity() {
         loadFragment(OneFragment(), true, false)
     }
 
-<<<<<<< HEAD
-    fun fdsh(){
-        print("")
-    }
-=======
+    fun vatsalLalit() {
 
-    fun name():String{
-        return  "Vatsal Bhavsar"
     }
 
-
->>>>>>> f8b55f6f4fa4b83c135e48e706b67330ffec965d
 }
