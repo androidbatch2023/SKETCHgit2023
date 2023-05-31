@@ -10,4 +10,8 @@ class Dummy() {
         val nm = ""
 
     }
+
+    fun vatsalLalit(){
+        var name = "BHargav Sutariya"
+    }
 }
