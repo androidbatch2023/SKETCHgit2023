@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">15_5_23_APIwithCoruting</string>
+    <string name="data_shows">Data Shows</string>
+    <string name="name">Name</string>
+    <string name="company_name">Company Name</string>
+    <string name="postdata">Postdata</string>
+    <string name="id">Id</string>
+    <string name="delete_data">Delete Data</string>
+    <string name="post_data">Post Data</string>
+    <string name="put_data">Put Data</string>
+</resources>

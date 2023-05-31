@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:hint="@string/id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:hint="@string/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextId"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextCname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:hint="@string/company_name"
+        app:layout_constraintEnd_toEndOf="@id/editTextName"
+        app:layout_constraintStart_toStartOf="@id/editTextName"
+        app:layout_constraintTop_toBottomOf="@id/editTextName" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPostData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/shape_button"
+        android:hint="@string/postdata"
+        app:layout_constraintEnd_toEndOf="@id/editTextCname"
+        app:layout_constraintStart_toStartOf="@id/editTextCname"
+        app:layout_constraintTop_toBottomOf="@id/editTextCname" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextDeleteFeild"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:hint="@string/id"
+        app:layout_constraintEnd_toEndOf="@id/buttonPostData"
+        app:layout_constraintStart_toStartOf="@id/buttonPostData"
+        app:layout_constraintTop_toBottomOf="@id/buttonPostData" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonDeleteData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/shape_button"
+        android:hint="@string/delete_data"
+        app:layout_constraintEnd_toEndOf="@id/editTextDeleteFeild"
+        app:layout_constraintStart_toStartOf="@id/editTextDeleteFeild"
+        app:layout_constraintTop_toBottomOf="@id/editTextDeleteFeild" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/rvShowData"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/buttonDeleteData"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
