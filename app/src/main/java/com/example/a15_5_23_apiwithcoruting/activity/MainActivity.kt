@@ -16,9 +16,5 @@ class MainActivity : BaseActivity() {
         loadFragment(OneFragment(), true, false)
     }
 
-    fun vatsalLalit() {
-        val nm =""
-        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
-    }
 
 }
