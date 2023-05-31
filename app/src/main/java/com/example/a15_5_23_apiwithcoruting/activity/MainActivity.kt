@@ -14,4 +14,8 @@ class MainActivity : BaseActivity() {
         supportActionBar?.hide()
         loadFragment(OneFragment(), true, false)
     }
+
+    fun fdsh(){
+        print("")
+    }
 }
