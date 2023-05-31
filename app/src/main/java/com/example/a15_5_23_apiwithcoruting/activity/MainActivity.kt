@@ -14,4 +14,11 @@ class MainActivity : BaseActivity() {
         supportActionBar?.hide()
         loadFragment(OneFragment(), true, false)
     }
+
+
+    fun name():String{
+        return  "Vatsal Bhavsar"
+    }
+
+
 }
