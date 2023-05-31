@@ -1,6 +1,7 @@
 package com.example.a15_5_23_apiwithcoruting.activity
 
 import android.os.Bundle
+import android.widget.Toast
 import com.example.a15_5_23_apiwithcoruting.baseactivity.BaseActivity
 import com.example.a15_5_23_apiwithcoruting.databinding.ActivityMainBinding
 import com.example.a15_5_23_apiwithcoruting.fragment.OneFragment
@@ -16,7 +17,8 @@ class MainActivity : BaseActivity() {
     }
 
     fun vatsalLalit() {
-
+        val nm =""
+        Toast.makeText(this, nm, Toast.LENGTH_SHORT).show()
     }
 
 }
